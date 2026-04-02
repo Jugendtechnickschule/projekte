@@ -1,0 +1,48 @@
+#imortieren von modulen
+import time
+import random
+
+
+#int
+x = 1
+#string
+test_wort = "Hallo Welt"
+#bool
+richtig_oder_falsch = True
+#list
+meine_liste = [1,2,3,4,5,6,7,8,9,10]
+
+
+#in die console schreiben
+print("hallo wie geht es dir")
+print(x)
+print(meine_liste)
+
+# wenn x gleich 1:
+# dann ->
+if x == 1:
+    print("x == 1")
+
+print("jetzt kommt die for schleife\n")
+time.sleep(1)
+#wiederholung von 0 bis 9
+for i in range(10):
+    print(i)
+    time.sleep(1)
+
+print("jetzt kommt die while schleife\n")
+time.sleep(1)
+
+#wiederholung bis x kleiner als 10 ist
+while x < 10:
+    print(x)
+    x += 1
+    time.sleep(0.5)
+
+if richtig_oder_falsch == True:
+    print("richtig")
+else:
+    print("falsch")
+
+
+
